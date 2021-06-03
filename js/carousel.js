@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.owl-carousel').owlCarousel({
+    $('#front-end-projs .owl-carousel').owlCarousel({
         margin: 10,
         // autoplay: true,
         // autoplayTimeout: 3000,
@@ -20,5 +20,29 @@ $(document).ready(function(){
         }
     });
 
+
+
+
+    $('.first-proj-prev .owl-carousel').owlCarousel({
+        margin: 10,
+        items:1,
+        // autoplay: true,
+        // autoplayTimeout: 3000,
+        // rewind: true,
+        // autoplayHoverPause: true,
+        nav:true,
+        dots:false
+    });
+
+    $('.second-proj-prev .owl-carousel').owlCarousel({
+        margin: 10,
+        items:1,
+        // autoplay: true,
+        // autoplayTimeout: 3000,
+        // rewind: true,
+        // autoplayHoverPause: true,
+        nav:true,
+        dots:false
+    });
 
 });

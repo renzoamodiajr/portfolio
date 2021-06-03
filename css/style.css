@@ -9,6 +9,9 @@ html, body{
     height: 100%;
     width: 100%;
 }
+img{width: 100%;}
+
+a, a:hover{text-decoration: none; color: #000;}
 
 h1,h2,h3,h4,h5,
 p{
@@ -463,6 +466,30 @@ hr{
     color: #fff;
 }
 
+
+
+#personal-projs .owl-prev{
+    position: absolute;
+    top: -5px;
+    left: 8px;
+    height: 100%;
+    width: 34px;
+    font-size: 46px!important;
+    color: #fff;
+}
+
+#personal-projs .owl-next{
+    position: absolute;
+    top: -5px;
+    right: 8px;
+    height: 100%;
+    width: 34px;
+    font-size: 46px!important;
+    color: #fff;
+}
+
+
+
 #front-end-projs{
     position: relative;
 }
@@ -483,13 +510,13 @@ hr{
     display: none;
 }
 
-.owl-item{
+#front-end-projs .owl-item{
     height: 602px;
     overflow: hidden;
     max-height: 100%;
 }
 
-.owl-prev{
+#front-end-projs .owl-prev{
     position: absolute;
     top: 0;
     left: -33px;
@@ -499,7 +526,7 @@ hr{
     font-size: 46px!important;
 }
 
-.owl-next{
+#front-end-projs .owl-next{
     position: absolute;
     top: 0;
     right: -33px;
