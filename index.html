@@ -17,72 +17,53 @@
 
     <!-- MY OWN CSS -->
     <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="stylesheet" href="css/media.css">
+
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navabar-fixed">
-        <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark navabar-fixed">
+        <div class="container">x
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
             </ul>
           </div>
         </div>
-    </nav>
+    </nav> -->
 
   
       
    
       <section id="banner">
-        <!-- <ul class="box-area">
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul> -->
         <div class="download_cv">
-            <a href="pdf/UPDATED RESUME - 3_28_21.pdf" class="btn dark-bg text-white" target="_blank" download><i class="fas fa-download"></i> DOWNLOAD CV</a>
+            
         </div>
         <div class="social-icons">
             <ul>
-                <li><a href="" target="_blank"><img src="img/linked-in.png" alt=""></a></li>
-                <li><a href="" target="_blank"><img src="img/gmail2.png" alt="" style="width: 32px;"></a></li>
-                <li><a href="" target="_blank"><img src="img/fb.png" alt=""></a></li>
+                <li><a href="https://www.linkedin.com/in/lorenzoamodiajr" target="_blank"><img src="img/linked-in.png" alt=""></a></li>
+                <li><a href="mailto:renzoamodiajr@gmail.com"><img src="img/gmail2.png" alt="" style="width: 32px;"></a></li>
+                <li><a href="https://web.facebook.com/enzoamodiajr" target="_blank"><img src="img/fb.png" alt=""></a></li>
             </ul>
         </div>
 
         <div class="container">
             <div class="row align-items-center">
-                <div class="col col1">
+                <div class="col-md-5 col1">
                     <img src="img/me_casual.png" alt="">
                 </div>
-                <div class="col col2 color-white">
+                <div class="col col2 text-white">
                   <div class="in-con">
-                      <h1>Hi! I'm Enzo</h1>
-                      <h2>SEO SPECIALIST</h2>
-                      <h2>SELF-TAUGHT DEVELOPER</h2>
-                      <h2>WEB DEVELOPER</h2>
-                      <button class="btn orange-bg">VIEW MY PROJECTS</button>
+                      <h1 class="mb-5">I'm | <span class="p-2 orange-bg typeanimate"></span></h1>
+                      <a href="#portfolio" class="btn orange-bg scrl" >VIEW MY PROJECTS</a>
+                      <a href="pdf/UPDATED RESUME - 3_28_21.pdf" class="btn orange-bg text-white" target="_blank" download><i class="fas fa-download"></i> DOWNLOAD CV</a>
                     </div>
                 </div>
             </div>
@@ -91,7 +72,7 @@
 
       <section id="about-me">
             <div class="container">
-                <div class="row align-items-center" style="margin-bottom: 209px;">
+                <div class="row align-items-center" style="margin-bottom: 174px;">
                   <div class="col col1">
                     <h2>ABOUT<span>ME</span></h2>
                   </div>
@@ -232,6 +213,7 @@
       </section>
 
       <section id="portfolio" class="orange-bg">
+        <ul class="box-area"><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul>
         <div class="container">
           <h2 class="text-center">MY<span>PORTFOLIO</span></h2>
 
@@ -309,6 +291,11 @@
                         <h3>Suds&Duds</h3>
                         <p class="my-2">A simple reservation system for a Laundry shop that allows users to book a schedule as to when to visit the shop which will be accompanied by the laundry attendant's (admin) approval. The system also computes the Weekly, Monthly and Yearly revenue dynamically.</p>
                         <div class="tools mb-2">
+                          <strong>User types:</strong>
+                          <span class="badge bg-secondary">Admin</span>
+                          <span class="badge bg-secondary">User</span>
+                        </div>
+                        <div class="tools mb-2">
                           <strong>Back-end:</strong>
                           <span class="badge bg-secondary">PHP(Procedural)</span>
                           <span class="badge bg-secondary">jQuery</span>
@@ -328,7 +315,7 @@
                         </div>
                         <div class="mt-3">
                           <a href="https://github.com/renzoamodiajr/suds-duds" target="_blank" class="btn orange-bg">View Code</a>
-                          <button class="btn orange-bg" disabled>Demo</button>
+                          <a href="http://demo-sudsandduds.epizy.com/" target="_blank" class="btn orange-bg">Demo</a>
                         </div>
                       </div>
                     </div>
@@ -399,7 +386,7 @@
                         </div>
                         <div class="mt-3">
                           <a href="https://github.com/renzoamodiajr/parking-monitoring-system" target="_blank" class="btn orange-bg">View Code</a>
-                          <a href="#" target="_blank" class="btn orange-bg">Demo</a>
+                          <a href="http://demo-pmonitoring.epizy.com/" target="_blank" class="btn orange-bg">Demo</a>
                         </div>
                       </div>
                     </div>
@@ -512,7 +499,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- FANCY BOX JS -->
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-
+    <!-- TYPEWRITER PLUGIN -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@latest/lib/typed.min.js"></script>
     <!-- VANTA NET JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
@@ -525,5 +513,7 @@
     <script src="js/fancy-box.js"></script>
     <script src="js/isotope.js"></script>
     <script src="js/vanta.js"></script>
+    <script src="js/smoothscrolling.js"></script>
+    <script src="js/typewriter.js"></script>
 </body>
 </html>
