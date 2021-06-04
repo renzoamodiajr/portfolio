@@ -470,25 +470,39 @@ hr{
 
 #personal-projs .owl-prev{
     position: absolute;
-    top: -5px;
+    top: 55%;
+    transform: translateY(-50%);
     left: 8px;
     height: 100%;
     width: 34px;
     font-size: 46px!important;
     color: #fff;
+    text-shadow: 0px 0px 4px #000;
 }
 
 #personal-projs .owl-next{
     position: absolute;
-    top: -5px;
+    top: 55%;
+    transform: translateY(-50%);
     right: 8px;
     height: 100%;
     width: 34px;
     font-size: 46px!important;
     color: #fff;
+    text-shadow: 0px 0px 4px #000;
 }
-
-
+#personal-projs .prev-con{
+    height: 100%;
+    max-height: 280px;
+    overflow: hidden;
+}
+#personal-projs .owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    height: 100%;
+    max-height: 280px;
+}
 
 #front-end-projs{
     position: relative;

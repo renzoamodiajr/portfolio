@@ -26,10 +26,10 @@ $(document).ready(function(){
     $('.first-proj-prev .owl-carousel').owlCarousel({
         margin: 10,
         items:1,
-        // autoplay: true,
-        // autoplayTimeout: 3000,
-        // rewind: true,
-        // autoplayHoverPause: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        loop: true,
+        autoplayHoverPause: true,
         nav:true,
         dots:false
     });
@@ -37,10 +37,10 @@ $(document).ready(function(){
     $('.second-proj-prev .owl-carousel').owlCarousel({
         margin: 10,
         items:1,
-        // autoplay: true,
-        // autoplayTimeout: 3000,
-        // rewind: true,
-        // autoplayHoverPause: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        loop: true,
+        autoplayHoverPause: true,
         nav:true,
         dots:false
     });
