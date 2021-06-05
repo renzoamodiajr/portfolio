@@ -6,7 +6,7 @@ $(document).ready(function(){
             'a SELF-TAUGHT DEVELOPER'
         ],
         typeSpeed: 30,
-        backSpeed:0,
+        backSpeed:30,
         loop:true
     });
 })
