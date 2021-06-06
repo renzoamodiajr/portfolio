@@ -36,6 +36,8 @@ hr{
     bottom:20px;
     right:20px;
     z-index: 99999;
+    border: 2px solid #fff;
+    display: none;
 }
 
 
@@ -197,7 +199,7 @@ hr{
 #banner::after{
     content: url(../img/triangleAsymmetrical-bottom.svg);
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     left: 0;
     width: 100%;
     overflow: hidden;
