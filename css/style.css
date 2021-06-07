@@ -587,7 +587,9 @@ hr{
     color: #fff;
 }
 
-
+#personal-projs .card{
+    padding: 10px 0;
+}
 
 #personal-projs .owl-prev{
     position: absolute;
