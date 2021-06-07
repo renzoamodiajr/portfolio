@@ -1,0 +1,405 @@
+
+@media only screen and (max-width:1200px){
+    .container{
+        max-width: 1140px;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .container{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    /* ================ HEADER  ================ */
+    #header{
+        top: 78px;
+    }
+
+    /* ================ BANNER  ================ */
+    .vanta-canvas{
+        height: 953px;
+    }
+
+    #banner .content-sect{
+        min-height: 90vh;
+    }
+
+    #banner .col .in-con{
+        padding-left: 0;
+    }
+
+    #banner .col1{
+        flex: 1 0 0%;
+    }
+    #banner .col2::before{
+        left: -38px;
+    }
+
+    /* ================ ABOUT ME  ================ */
+    #about-me .col1 h2{
+        padding-left: 29px;
+    }
+    #about-me .col1 h2::before{
+        left:0;
+    }
+    #about-me .col1 h2::after{
+        left: 147px;
+    }
+
+
+    /* ================ PERSONAL BACKGROUND  ================ */
+    #personal-background{
+        padding-bottom: 256px;
+    }
+    #personal-background .col1{
+        padding-right: 33px;
+    }
+    #personal-background .col2 {
+        padding-left: 33px;
+    }
+
+    /* ================ PORTFOLIO  ================ */
+    
+    #portfolio{
+    padding: 146px 0;
+    }
+
+    #personal-projs .col1{
+        width: 100%;
+    }
+    #personal-projs .col2{
+        margin: 21px 0;
+        width: 100%;
+    }
+    #pmonitoring .card-body .row{
+        display: block;
+    }
+
+    #personal-projs .owl-carousel .owl-stage-outer{
+        max-height: 229px;
+    }
+    
+    #front-end-projs  .owl-carousel .owl-stage-outer{
+        max-height: 383px;
+    }
+
+    #front-end-projs::before{
+        padding-top: 106px;
+    }
+
+}
+
+
+
+@media only screen and (max-width:768px){
+
+    /* GLOBALS */
+    #banner .col1, #banner .col2,
+    #about-me .col1, #about-me .col2{
+        flex: none;
+        width: 100%;
+    }
+
+    /* ====================== BANNER ====================== */
+    #banner .content-sect{
+        display: block;
+        padding-top: 52px;
+    }
+    
+
+    #banner .col1 img{
+        max-width: 359px;
+    }
+    #banner .col2::before{
+        display: none;
+    }
+
+    #banner .col2{
+        margin-top: 55px;
+        text-align: center;
+    }
+
+
+    /* ====================== ABOUT ME ========================= */
+    #about-me .content-sect{
+        display: block;
+        padding: 131px 0;
+    }
+    #about-me .col1 h2{
+        padding-left: 0;
+        text-align: center;
+        width: 251px;
+        margin: auto;
+    }
+    #about-me .col1 h2 span{
+        margin-left: 170px;
+        left: 0;
+    }
+
+    #about-me .col2{
+        margin-top: 122px;
+    }
+    #about-me .col1 h2::before{
+        left: -19px;
+    }
+    #about-me .col2::before{
+        left: -18px;
+        top: -28px;
+    }
+
+     /* ====================== PERSONAL BACKGROUND ========================= */
+     #personal-background .col1{
+        padding-right: 30px;
+     }
+     #personal-background .col2{
+        padding-left: 18px;
+     }
+
+
+      /* ================ PORTFOLIO  ================ */
+      #front-end-projs::before{
+          display: none;
+      }
+
+
+     /* ====================== CONTACT FORM ========================= */
+     #contact-form{
+        padding: 144px 0;
+     }
+     #contact-form .cont-sect{
+         display: block;
+     }
+
+     #contact-form .cont-sect .col1{
+        margin-bottom: 100px;
+        width: 100%;
+     }
+
+}
+
+
+
+@media only screen and (max-width:425px){
+
+    /* ====================== BANNER ====================== */
+    #banner{
+        padding: 0;
+    }
+    #banner .content-sect{
+        min-height: 0;
+        padding: 68px 0 109px;
+    }
+    #banner .col1 img{
+        max-width: 100%;
+    }
+    .vanta-canvas{
+        height: 621px!important;
+    }
+    
+
+    /* ====================== ABOUT ME ====================== */
+    #about-me .col1 h2{
+        width: 100%;
+    }
+    #about-me .col1 h2 span{
+        margin-left: 0;
+        margin-top: 21px;
+    }
+    #about-me .col1 h2 span::before{
+        left: 84px;
+    }
+    #about-me .col1 h2::before{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #about-me .col2{
+        background: rgba(255,77,6,.1);
+        padding: 28px 12px;
+    }
+    #about-me .col2::before{
+        display: none;
+    }
+    #tl{
+        top: -9px;
+        left: -9px;
+    }
+    #tr{
+        top: -9px;
+        right: -9px;
+    }
+    #bl{
+        bottom: -9px;
+        left: -9px;
+    }
+    #br{
+        bottom: -9px;
+        right: -9px;
+    }
+
+    /* ====================== PERSONAL BACKGROUND ====================== */
+    #personal-background .content-sect{
+        display: block;
+    }
+    #personal-background .col1, #personal-background .col2{
+        width: 100%;
+    }
+
+    #personal-background .col1{
+        margin-bottom: 50px;
+        padding-right: 0;
+        border: none;
+    }
+    #personal-background .col1 h2, #personal-background .col2 h2{
+        color: #fff;
+        text-align: center;
+        background-color: var(--orange-bg);
+        padding: 9px 5px;
+        border: 4px solid #f3d2d2;
+    } 
+
+    #personal-background .col1 .work-exp .work-exp-heading h4{
+        border-bottom: 5px solid #FF4D06;
+        padding-bottom: 10px;
+    }
+    #personal-background .col1 .work-exp .rspblts{
+        margin-top: 12px;
+    }
+
+    #personal-background .col2{
+        padding-left: 0;
+    }
+
+    /* ====================== PORTFOLIO ====================== */
+    #front-end-projs .owl-prev{
+        left: 0;
+    }
+    #front-end-projs .owl-next{
+        right: 0;
+    }
+
+
+    /* ====================== CONTACT FORM ====================== */
+    #contact-form .col2 .row{
+        display: block;
+    }
+    #contact-form .col2 .card{
+        padding: 20px 5px;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width:375px){
+
+    /* GLOBAL */
+    .container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+
+    #portfolio h2, #contact-form .col1 h2{
+        width: 100%;
+        font-size: 52px;
+        padding-right: 0;
+        margin-bottom: 115px;
+    }
+    #portfolio h2::before, #contact-form .col1 h2::before{
+        height: 72px;
+        width: 127px;
+        left: 50%;
+        top: -9px;
+        transform: translateX(-50%);
+    }
+
+    /* ====================== HEADER ====================== */
+    #header{
+        top: 30px;
+        left: 0;
+    }
+    #header .social-icons ul{
+        border-radius: 0 4px 4px 0;
+    }
+    #header .social-icons ul li a span{
+        display: none;
+    }
+    
+    /* ====================== BANNER ====================== */
+    .vanta-canvas {
+        height: 847px!important;
+        width: 100%!important;
+    }
+    #banner .content-sect{
+        padding: 68px 0 88px;
+    }
+
+    #banner .col2 h1 span:first-child{
+        display: block;
+        height: 49px;
+    }
+
+    #banner .col2 h1 span:last-child{
+        height: 49px;
+    }
+
+    #banner .col2 a.btn{
+        display: block;
+        width: 174px;
+        margin: 0 auto 36px;
+    }
+
+    /* ====================== ABOUT ME ====================== */
+    #about-me .col1 h2{
+        font-size: 52px;
+    }
+    #about-me .col1 h2::before {
+        height: 106px;
+        width: 109px;
+    }
+    #about-me .col1 h2 span::before {
+        left: 81px;
+    }
+    #about-me .col1 h2 span{
+        margin-top: 48px;
+    }
+
+    #about-me .content-sect{
+        padding: 131px 0 115px;
+    }
+
+    /* ====================== PERSONAL BACKGROUND ====================== */
+    #personal-background {
+        padding-bottom: 138px;
+    }
+
+    
+    /* ====================== PORTFOLIO ====================== */
+    #portfolio .container {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    #portfolio h3{
+        text-align: center;
+        background: transparent;
+        padding: 10px 5px;
+        border: 2px solid #fff;
+        margin-bottom: 14px!important;
+    }
+
+    #personal-projs .owl-carousel .owl-stage-outer{
+        max-height: 181px;
+    }
+
+
+    /* ====================== CONTACT FORM ====================== */
+    #contact-form .col1 h2{
+        width: 100%;
+        text-align: center;
+    }
+}

@@ -3,8 +3,10 @@ $(document).ready(function(){
         strings: [
             'an SEO SPECIALIST', 
             'a WEB DEVELOPER',
-            'a SELF-TAUGHT DEVELOPER'
+            'PASSIONATE',
         ],
+        stringsElement:null,
+        startDelay: 0,
         typeSpeed: 30,
         backSpeed:30,
         loop:true

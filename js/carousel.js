@@ -23,7 +23,7 @@ $(document).ready(function(){
 
 
 
-    $('.first-proj-prev .owl-carousel').owlCarousel({
+    $('#personal-projs .owl-carousel').owlCarousel({
         margin: 10,
         items:1,
         autoplay: true,
@@ -31,18 +31,23 @@ $(document).ready(function(){
         loop: true,
         autoplayHoverPause: true,
         nav:true,
-        dots:false
+        dots:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1024:{
+                items:2,
+                loop: false,
+            },
+            1025:{
+                items:1
+            }
+        }
     });
 
-    $('.second-proj-prev .owl-carousel').owlCarousel({
-        margin: 10,
-        items:1,
-        autoplay: true,
-        autoplayTimeout: 3000,
-        loop: true,
-        autoplayHoverPause: true,
-        nav:true,
-        dots:false
-    });
 
 });
