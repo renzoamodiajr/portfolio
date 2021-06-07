@@ -400,9 +400,6 @@
 @media only screen and (max-width:375px){
 
   
-
-
-    
     
     /* ====================== BANNER ====================== */
     .vanta-canvas {
@@ -424,7 +421,7 @@
 
     #banner .col2 a.btn{
         display: block;
-        width: 174px;
+        width: 70%;
         margin: 0 auto 36px;
     }
 
