@@ -35,7 +35,7 @@ hr{
     position: fixed;
     bottom:20px;
     right:20px;
-    z-index: 99999;
+    z-index: 1055;
     border: 2px solid #fff;
     display: none;
 }
@@ -166,6 +166,7 @@ hr{
     position: relative;
     height: auto;
     padding: 58px 0 129px;
+    overflow: hidden;
 }
 
 #banner .content-sect{
@@ -199,7 +200,7 @@ hr{
 #banner::after{
     content: url(../img/triangleAsymmetrical-bottom.svg);
     position: absolute;
-    bottom: -1px;
+    bottom: -2px;
     left: 0;
     width: 100%;
     overflow: hidden;
