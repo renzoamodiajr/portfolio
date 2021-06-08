@@ -3,7 +3,7 @@ $(document).ready(function(){
         strings: [
             'an SEO SPECIALIST', 
             'a WEB DEVELOPER',
-            'a SELFT-TAUGH DEV',
+            'a SELF-TAUGHT DEV',
         ],
         stringsElement:null,
         startDelay: 0,

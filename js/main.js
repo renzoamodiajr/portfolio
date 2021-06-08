@@ -3,7 +3,7 @@ $(document).ready(function(){
         $(this).css({"transform":"translateY(4px)","box-shadow":"0 5px #99999985"}).attr("target","_blank").html('<i class="fas fa-spinner fa-spin"></i> PREPARING...');
 
         setTimeout(() => {
-            window.open("pdf/UPDATED RESUME - 3_28_21.pdf", "_blank");
+            window.open("pdf/Lorenzo N. Amodia Jr. - Resume.pdf", "_blank");
 
 
             $(this).css({"transform":"translateY(0)", "box-shadow":"0 9px #99999985"}).html('<i class="fas fa-download"></i><span> GET RESUME</span>');

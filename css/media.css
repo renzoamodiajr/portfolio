@@ -190,7 +190,7 @@
         border: 4px solid #f3d2d2;
     } 
 
-    #personal-background .col1 .work-exp .work-exp-heading h4{
+    #personal-background .col1 .work-exp h4{
         border-bottom: 5px solid #FF4D06;
         padding-bottom: 10px;
     }
@@ -225,10 +225,14 @@
      }
 
 
-      /* ================ PORTFOLIO  ================ */
-      #front-end-projs::before{
-          display: none;
-      }
+    /* ================ PORTFOLIO  ================ */
+    #personal-projs .owl-carousel .owl-stage-outer {
+    max-height: 186px;
+    }
+
+    #front-end-projs::before{
+        display: none;
+    }
 
 
      /* ====================== CONTACT FORM ========================= */
@@ -243,6 +247,15 @@
         margin-bottom: 100px;
         width: 100%;
      }
+
+}
+
+
+@media only screen and (max-width:700px){
+
+    #personal-projs .owl-carousel .owl-stage-outer {
+        max-height: 280px;
+    }
 
 }
 
@@ -322,6 +335,9 @@
     }
 
 
+    #personal-projs .owl-carousel .owl-stage-outer {
+        max-height: 255px;
+    }
    
     /* ====================== PORTFOLIO ====================== */
     #front-end-projs .owl-prev{
@@ -397,6 +413,15 @@
 }
 
 
+
+@media only screen and (max-width:400px){
+
+    #personal-projs .owl-carousel .owl-stage-outer {
+        max-height: 180px;
+    }
+}
+
+
 @media only screen and (max-width:375px){
 
   
@@ -451,6 +476,7 @@
     #personal-projs .owl-carousel .owl-stage-outer{
         max-height: 181px;
     }
+
 
 
     /* ====================== CONTACT FORM ====================== */
