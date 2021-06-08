@@ -410,7 +410,7 @@
         padding: 68px 0 88px;
     }
 
-    #banner .col2 h1 span:first-child{
+    #banner .col2 h1 span:nth-child(2){
         display: block;
         height: 49px;
     }

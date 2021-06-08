@@ -32,20 +32,26 @@
         <div class="social-icons">
             <ul>
                 <li>
-                  <a href="https://www.linkedin.com/in/lorenzoamodiajr" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                    <span>Visit my LinkedIn page</span>
+                  <a href="tel:09352070049">
+                    <i class="fas fa-phone-square-alt faa-wrench animated-hover"></i>
+                    <span>0935 207 0049</span>
                   </a>
                 </li>
                 <li>
                   <a href="mailto:renzoamodiajr@gmail.com">
-                    <i class="fab fa-google-plus"></i>
-                    <span>Email me at: renzoamodiajr@gmail.com</span>
+                    <i class="fab fa-google-plus faa-wrench animated-hover"></i>
+                    <span>renzoamodiajr@gmail.com</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/lorenzoamodiajr" target="_blank">
+                    <i class="fab fa-linkedin faa-wrench animated-hover"></i>
+                    <span>Visit my LinkedIn page</span>
                   </a>
                 </li>
                 <li>
                   <a href="https://github.com/renzoamodiajr" target="_blank">
-                    <i class="fab fa-github-square"></i>
+                    <i class="fab fa-github-square faa-wrench animated-hover"></i>
                     <span>Visit my GitHub page</span>
                   </a>
                 </li>
@@ -62,6 +68,7 @@
                 <div class="col col2 text-white">
                   <div class="in-con">
                       <h1 class="mb-5">
+                        <span style="display: block;" class="mb-3">Hi there!</span>
                         <span>I'm</span> 
                         <span class="p-2 orange-bg typeanimate"></span>
                       </h1>
@@ -463,15 +470,16 @@
           <div class="row align-items-center cont-sect">
             <div class="col-md-5 col1">
               <h2>Get <span>In Touch</span></h2>
+              <p></p>
             </div>
             <div class="col col2">
                 <div class="card">
                   <div class="card-body">
                       <h2 class="mb-3 formTitle">Feel free to message me</h2>
-                      <form name="contact" method="POST" data-netlify="true">
+                      <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
       
                         <input type="hidden" name="form-name" value="contact">
-      
+
                         <div class="row" style="margin:0">
                             <div class="col form-floating mb-3 me-2">
                               <input type="text" placeholder="Full name" class="form-control" id="fullname" autocomplete="off" required>
@@ -482,13 +490,17 @@
                               <label for="emailaddress">Email address</label>
                             </div>
                         </div>
-      
+                        
+                        <div class="col form-floating mb-3">
+                          <input type="text" placeholder="Subject" class="form-control" id="subj" autocomplete="off" required>
+                          <label for="subj">Subject</label>
+                        </div>
                         <div class="form-floating mb-3">
                           <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px" autocomplete="off" required></textarea>
                           <label for="message">Message</label>
                         </div>
-      
-                        <button type="submit" class="btn orange-bg">Submit</button>
+                        <div class="mb-3" data-netlify-recaptcha="true"></div>
+                        <button type="submit" class="btn orange-bg faa-horizontal animated-hover">Submit</button>
                       </form>
                   </div>
                 </div>
@@ -498,7 +510,29 @@
       </section>
 
       <footer class="orange-bg text-white text-center py-3">
-        <p>&#169; All rights reserved 2021</p>
+        <ul id="ft_socials">
+          <li>
+            <a href="tel:09352070049">
+              <i class="fas fa-phone-square-alt faa-wrench animated-hover"></i>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:renzoamodiajr@gmail.com">
+              <i class="fab fa-google-plus faa-wrench animated-hover"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/lorenzoamodiajr/" target="_blank">
+              <i class="fab fa-linkedin faa-wrench animated-hover"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/renzoamodiajr" target="_blank">
+              <i class="fab fa-github-square faa-wrench animated-hover"></i>
+            </a>
+          </li>
+        </ul>
+        <p>&#169; 2021 | Lorenzo N. Amodia Jr.</p>
       </footer>
 
     
