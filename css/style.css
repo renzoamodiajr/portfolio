@@ -72,6 +72,8 @@ hr{
     text-align: center;
     cursor: pointer;
     box-shadow: 0 9px #99999985;
+    padding: 10px 15px;
+    border-radius: 10px;
 }
 
 
