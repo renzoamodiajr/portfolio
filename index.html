@@ -476,21 +476,21 @@
 
                         <div class="row" style="margin:0">
                             <div class="col form-floating mb-3 me-2">
-                              <input type="text" placeholder="Full name" class="form-control" id="fullname" autocomplete="off" required>
+                              <input type="text" placeholder="Full name" class="form-control" id="fullname" name="fullname" autocomplete="off" required>
                               <label for="fullname">Full name</label>
                             </div>
                             <div class="col form-floating mb-3">
-                              <input type="email" placeholder="Email Address" class="form-control" id="emailaddress" autocomplete="off" required>
+                              <input type="email" placeholder="Email Address" class="form-control" id="emailaddress" name="emailaddress" autocomplete="off" required>
                               <label for="emailaddress">Email address</label>
                             </div>
                         </div>
                         
                         <div class="col form-floating mb-3">
-                          <input type="text" placeholder="Subject" class="form-control" id="subj" autocomplete="off" required>
+                          <input type="text" placeholder="Subject" class="form-control" id="subj" name="subj" autocomplete="off" required>
                           <label for="subj">Subject</label>
                         </div>
                         <div class="form-floating mb-3">
-                          <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px" autocomplete="off" required></textarea>
+                          <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 100px" autocomplete="off" required></textarea>
                           <label for="message">Message</label>
                         </div>
                         <div class="mb-3" data-netlify-recaptcha="true"></div>
