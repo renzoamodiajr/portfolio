@@ -11,8 +11,8 @@
         padding-right: 50px;
     }
     
-    /* ================ HEADER  ================ */
-    #header{
+    /* ================ floating-social-icons  ================ */
+    #floating-social-icons{
         top: 78px;
     }
 
@@ -263,15 +263,15 @@
 
 @media only screen and (max-width:600px){
 
-    /* ====================== HEADER ====================== */
-    #header{
+    /* ====================== floating-social-icons ====================== */
+    #floating-social-icons{
         top: 30px;
         left: 0;
     }
-    #header .social-icons ul{
+    #floating-social-icons ul{
         border-radius: 0 4px 4px 0;
     }
-    #header .social-icons ul li a span{
+    #floating-social-icons ul li a span{
         display: none;
     }
 

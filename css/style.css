@@ -98,7 +98,7 @@ hr{
 
 
 /* ========================= HEADER ======================== */
-#header{
+#floating-social-icons{
     position: absolute;
     top: 162px;
     left: 48px;
@@ -106,27 +106,27 @@ hr{
     text-align: center;
     font-size: 30px;
 }
-#header .social-icons ul{
+#floating-social-icons ul{
     padding: 10px 0;
     background: var(--orange-bg);
     border-radius: 35px;
     box-shadow: 0px 9px #99999985;
 }
-#header .social-icons ul li{
+#floating-social-icons ul li{
     list-style: none;
 }
-#header .social-icons ul li a{
+#floating-social-icons ul li a{
     position: relative;
     padding: 10px;
     white-space: nowrap;
 }
 
-#header .social-icons ul li a:hover{
+#floating-social-icons ul li a:hover{
     color:#fff;
 }
 
 
-#header .social-icons ul li a span{
+#floating-social-icons ul li a span{
     top: 50%;
     position: absolute;
     z-index: -1;
@@ -150,7 +150,7 @@ hr{
 }
 
 
-#header .social-icons ul li a:hover span{
+#floating-social-icons ul li a:hover span{
     transform: translateX(0) translateY(-50%);
     z-index: -1;
     opacity: 1;
