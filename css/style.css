@@ -389,8 +389,21 @@ hr{
     transform: rotate(180deg);
 }
 
+.box2 ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.box2 ul li{
+    list-style: none;
+    margin-right: 10px;
+}
 
-
+.box2 ul li i{
+    display: block;
+    font-size: 38px;
+}
 
 #portfolio{
     padding: 146px 50px;

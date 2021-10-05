@@ -1,9 +1,9 @@
 $(document).ready(function(){
     var typed = new Typed('.typeanimate', {
         strings: [
+            'a SOFTWARE ENGINEER',
             'an SEO SPECIALIST', 
             'a WEB DEVELOPER',
-            'a SELF-TAUGHT DEV'
         ],
         stringsElement:null,
         startDelay: 0,
