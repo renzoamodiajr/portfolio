@@ -1,14 +1,14 @@
-$(document).ready(function(){
+$(document).ready(function () {
     var typed = new Typed('.typeanimate', {
         strings: [
-            'a SOFTWARE ENGINEER',
-            'an SEO SPECIALIST', 
+            'a FULL-STACK ENGINEER',
+            'an SEO SPECIALIST',
             'a WEB DEVELOPER',
         ],
-        stringsElement:null,
+        stringsElement: null,
         startDelay: 0,
         typeSpeed: 30,
-        backSpeed:30,
-        loop:true
+        backSpeed: 30,
+        loop: true
     });
 })
